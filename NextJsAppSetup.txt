@@ -1,0 +1,18 @@
+Firstly we created a new folder in our local disk directory called promptapp2023-nextjs and then we open it on our
+vscode to start coding in it.
+But before anything we need to setup our next js application by doing this 
+C:\promptapp2023-nextjs>npx create-next-app@latest ./
+- But you will be ask some few things like 
+- Would you like to use TypeScript? No
+- Would you like to use ESLint ? No
+- Would you like to use Tailwind CSS ? Yes
+- Would you like to use `src/` directory ? No
+- Would you like to use App Router ? (recommended) Yes
+- Would you like to customize the default import alias? Yes
+_ Then after you have succesfully answered to all this prompt it will start installing the neccessary dependencies for the application
+But after that we need to install some other dependencies as well like this
+C:\promptapp2023-nextjs>npm install bcrypt mongodb mongoose next-auth
+So after all this is done will have succesfully setup our nextjs environment.
+- There are some other things we have to do in the folder like deleting some folder because we will create a new one(app, public)
+- Then we create new folder app, components, models(for our mongodb schema), public, styles (for styling our application)
+utils and create a new file called .env
